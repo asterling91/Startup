@@ -33,7 +33,7 @@ def oldUser():
 def security(string):
 	m = hashlib.md5()
 	m.update(string.encode('utf-8'))
-	return m.hexidigest()
+	return m.hexdigest()
 
 while status != "q":            
     displayMenu()
