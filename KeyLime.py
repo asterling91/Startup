@@ -22,7 +22,7 @@ def newUser():
 
 def oldUser():
     login = raw_input("Enter login name: ")
-    passw = security('osint')
+    passw = security(flag{'osint'})
 
     # check if user exists and login matches password
     if login in users and users[login] == passw: 
